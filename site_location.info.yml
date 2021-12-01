@@ -1,0 +1,5 @@
+name: Site Location
+description: Displays the location and timezone of the site.
+core_version_requirement: ^8 || ^9
+type: module
+package: Custom

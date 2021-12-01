@@ -1,0 +1,7 @@
+services:
+  site_location.datetime:
+    class: 'Drupal\site_location\SiteLocationDatetime'
+    arguments:
+      - '@config.factory'
+      - '@datetime.time'
+      - '@date.formatter'

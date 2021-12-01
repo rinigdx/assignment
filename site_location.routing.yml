@@ -1,0 +1,9 @@
+site_location.admin_form:
+  path: '/admin/config/regional/site-location'
+  defaults:
+    _form: 'Drupal\site_location\Form\LocationSettingsForm'
+    _title: 'Site Location and Timezone'
+  requirements:
+    _permission: 'administer site location settings'
+  options:
+    _admin_route: TRUE
